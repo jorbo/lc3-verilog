@@ -19,7 +19,7 @@ initial begin
     // test_prog1[79:48] = 16'b0001011100000100;
     // test_prog1[127:80] = 16'b1111000000100101;    
     $readmemb("add.bin", test_prog1);
-    $display("%b", {test_prog1[4], test_prog1[3], test_prog1[2], test_prog1[1], test_prog1[0]});
+    // $display("%b", {test_prog1[4], test_prog1[3], test_prog1[2], test_prog1[1], test_prog1[0]});
 end
 
 always begin : main_block
