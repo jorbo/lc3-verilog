@@ -1,3 +1,2 @@
 [submodule "laser"]
-    path = lazer/
-    url = git@github.com:PaperFanz/laser.git
+	url = https://github.com/PaperFanz/laser.git
