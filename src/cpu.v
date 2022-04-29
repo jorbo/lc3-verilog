@@ -26,6 +26,7 @@ module cpu(input i_clk, input [SIZE-1:0] i_instructions);
         end
        case(opcode)
            4'b0001: begin
+               //IMMEDIATE MODE
                if(curr_instr[5] & 1'b1) begin     
                 imm_value = curr_instr[4:0];                
                 registers[dst_reg] = registers[src_reg] + imm_value;                
