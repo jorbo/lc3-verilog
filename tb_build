@@ -1,0 +1,1 @@
+iverilog -s cpu_tb src/cpu_tb.v src/cpu.v -o lc3_tb

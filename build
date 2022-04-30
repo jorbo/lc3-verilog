@@ -1,0 +1,1 @@
+iverilog -s cpu src/cpu.v -o lc3
