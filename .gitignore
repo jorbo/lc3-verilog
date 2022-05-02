@@ -1,0 +1,5 @@
+asm/*.bin
+asm/*.hex
+asm/*.obj
+asm/*.lst
+asm/*.sym
