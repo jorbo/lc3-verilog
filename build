@@ -1,1 +1,2 @@
-iverilog -s cpu src/cpu.v -o lc3
+#!/bin/sh
+iverilog -g2012 -s cpu src/cpu.v -o lc3

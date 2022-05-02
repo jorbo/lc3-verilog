@@ -1,1 +1,2 @@
-iverilog -s cpu_tb src/cpu_tb.v src/cpu.v -o lc3_tb
+#!/bin/sh
+iverilog -g2012 -s cpu_tb src/cpu_tb.v src/cpu.v -o lc3_tb
