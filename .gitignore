@@ -3,3 +3,5 @@ asm/*.hex
 asm/*.obj
 asm/*.lst
 asm/*.sym
+
+lc3_tb
